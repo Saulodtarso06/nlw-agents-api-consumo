@@ -1,4 +1,32 @@
-node_modules
-server/
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+
+# Variáveis de ambiente
 .env
-img/
+
+# Banco de dados local e backups
+*.sql
+*.sqlite
+*.db
+*.bak
+
+# Logs
+logs/
+*.log
+
+# Sistemas operacionais
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
